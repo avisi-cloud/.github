@@ -1,5 +1,3 @@
-# Avisi Cloud
-
 ![avisi-cloud-logo](/img/avisi-cloud-logo-black.png)
 
 > Running the mission critical workloads for the Enterprise using Cloud Native technology.
@@ -14,8 +12,6 @@ We believe data and software systems should always be secure and available. Clou
 
 Avisi Cloud offers a fully Managed Kubernetes platform. Avisi Cloud Kubernetes is a Kubernetes platform with built-in compliance and day-2 operational tooling.
 
-![Avisi Cloud Kubernetes Logos](/img/avisi-cloud-header-logos.svg)
-
 _[Read more on our website](https://avisi.cloud/kubernetes)_
 
 ## Getting Started
@@ -24,6 +20,3 @@ _[Read more on our website](https://avisi.cloud/kubernetes)_
 - [Platform Overview](https://docs.avisi.cloud/product/introduction/)
 - [Operational Run books for Kubernetes & Cloud Native](https://docs.avisi.cloud/docs/runbooks/)
 
----
-
-![Avisi Cloud Kubernetes Certified Service Provider](/img/avisi-kcsp-social.jpg)
