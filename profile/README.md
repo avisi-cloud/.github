@@ -2,7 +2,7 @@
 
 > Running the mission critical workloads for the Enterprise using Cloud Native technology.
 
-[Website](https://avisi.cloud) | [Documentation](https://docs.avisi.cloud)
+[Website](https://avisi.cloud) | [Managed Kubernetes](https://avisi.cloud/kubernetes) | [Managed Observability](https://avisi.cloud/observability) | [Documentation](https://docs.avisi.cloud)
 
 We are a Software Engeering company from the Netherlands. For over two decades we have helped our customers get the most out of their Software and Data.
 
