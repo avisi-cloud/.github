@@ -1,21 +1,21 @@
-<p align="center">
+<p>
   <a href="https://avisi.cloud/">
     <img src="./img/ame-robot.svg" alt="Avisi Managed Environments robot" width="150">
   </a>
 </p>
 
-<h1 align="center">Avisi Managed Environments</h1>
+<h1>Avisi Managed Environments</h1>
 
-<p align="center">
+<p>
   <strong>Managed Kubernetes with automated operations and built-in observability.</strong>
 </p>
 
-<p align="center">
+<p>
   Run mission-critical applications on supported public, private and hybrid
   infrastructure while Avisi Cloud manages the Kubernetes platform.
 </p>
 
-<p align="center">
+<p>
   <a href="https://avisi.cloud/features"><strong>Explore Features</strong></a> ·
   <a href="https://docs.avisi.cloud/docs/product/overview/introduction"><strong>Read the Documentation</strong></a> ·
   <a href="https://console.avisi.cloud/"><strong>Start a Trial</strong></a> ·
@@ -37,14 +37,14 @@ managed add-ons.
 
 ## Platform capabilities
 
-| Area | Capabilities |
-| --- | --- |
-| **Cluster lifecycle** | Automated provisioning, defined Kubernetes release channels, maintenance windows and flexible upgrade strategies |
-| **Compute** | Multiple node pools, node auto-healing, autoscaling and workload-specific configuration |
-| **Access and audit** | Organisations, environments, OIDC-based SSO, role-based access and audit logs |
-| **Networking and storage** | Managed networking, load balancers, ingress, persistent storage and volume snapshots where supported |
-| **Day-2 operations** | Managed add-ons, events, alerts, runbooks, backup workflows and operational automation |
-| **Developer interfaces** | Web console, `acloud` CLI, Go client, REST API and Terraform provider |
+| Area                       | Capabilities                                                                                                     |
+| -------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| **Cluster lifecycle**      | Automated provisioning, defined Kubernetes release channels, maintenance windows and flexible upgrade strategies |
+| **Compute**                | Multiple node pools, node auto-healing, autoscaling and workload-specific configuration                          |
+| **Access and audit**       | Organisations, environments, OIDC-based SSO, role-based access and audit logs                                    |
+| **Networking and storage** | Managed networking, load balancers, ingress, persistent storage and volume snapshots where supported             |
+| **Day-2 operations**       | Managed add-ons, events, alerts, runbooks, backup workflows and operational automation                           |
+| **Developer interfaces**   | Web console, `acloud` CLI, Go client, REST API and Terraform provider                                            |
 
 The [AME feature overview](https://avisi.cloud/features) describes the current
 platform capabilities. Stability and provider-specific support can change, so
@@ -57,13 +57,13 @@ Observability is included within AME. Clusters receive an integrated stack for
 collecting, retaining and acting on operational signals without requiring
 individual teams to build and maintain the platform themselves.
 
-| Component | Role in AME |
-| --- | --- |
-| **Prometheus** | Collects Kubernetes and application metrics using standard Prometheus resources |
-| **Cortex** | Provides scalable, highly available long-term metrics storage |
-| **Loki** | Collects and stores cluster log events |
-| **Grafana** | Visualizes metrics and logs using familiar open tooling |
-| **Alertmanager** | Routes alerts to services such as Slack, Opsgenie and custom webhooks |
+| Component        | Role in AME                                                                     |
+| ---------------- | ------------------------------------------------------------------------------- |
+| **Prometheus**   | Collects Kubernetes and application metrics using standard Prometheus resources |
+| **Cortex**       | Provides scalable, highly available long-term metrics storage                   |
+| **Loki**         | Collects and stores cluster log events                                          |
+| **Grafana**      | Visualizes metrics and logs using familiar open tooling                         |
+| **Alertmanager** | Routes alerts to services such as Slack, Opsgenie and custom webhooks           |
 
 Metrics, logs, alerts and relevant cluster activity are available through the
 AME Console. Long-term data remains accessible independently of an individual
@@ -92,13 +92,13 @@ AME supports public-cloud and private-infrastructure deployments through a
 consistent API and Kubernetes experience.
 
 | Provider or infrastructure | Documented availability |
-| --- | --- |
-| Amazon Web Services (AWS) | Supported |
-| Azure | Beta |
-| Hetzner | Supported |
-| Leafcloud | Supported |
-| OpenStack | Supported |
-| VMware vSphere | Supported |
+| -------------------------- | ----------------------- |
+| Amazon Web Services (AWS)  | Supported               |
+| Azure                      | Beta                    |
+| Hetzner                    | Supported               |
+| Leafcloud                  | Supported               |
+| OpenStack                  | Supported               |
+| VMware vSphere             | Supported               |
 
 Provider features and regional availability differ. Check the
 [current product overview](https://docs.avisi.cloud/docs/product/overview/introduction)
@@ -153,15 +153,15 @@ Do not rely on a static README for current component versions:
 3. Create an environment and deploy a Kubernetes cluster.
 4. Manage the platform through the Console, CLI, API or Terraform.
 
-| Need | Resource |
-| --- | --- |
-| Learn the platform | [AME Documentation](https://docs.avisi.cloud/) |
-| Compare capabilities | [AME Features](https://avisi.cloud/features) |
-| Track product changes | [Engineering Blog](https://docs.avisi.cloud/blog) |
-| Review current releases | [AME Release Notes](https://docs.avisi.cloud/docs/product/overview/release-notes) |
-| Resolve operational alerts | [Kubernetes and cloud-native runbooks](https://docs.avisi.cloud/docs/runbooks) |
-| Check service health | [Avisi Cloud Status](https://status.avisi.cloud/) |
-| Contact support | [support@avisi.cloud](mailto:support@avisi.cloud) |
+| Need                       | Resource                                                                          |
+| -------------------------- | --------------------------------------------------------------------------------- |
+| Learn the platform         | [AME Documentation](https://docs.avisi.cloud/)                                    |
+| Compare capabilities       | [AME Features](https://avisi.cloud/features)                                      |
+| Track product changes      | [Engineering Blog](https://docs.avisi.cloud/blog)                                 |
+| Review current releases    | [AME Release Notes](https://docs.avisi.cloud/docs/product/overview/release-notes) |
+| Resolve operational alerts | [Kubernetes and cloud-native runbooks](https://docs.avisi.cloud/docs/runbooks)    |
+| Check service health       | [Avisi Cloud Status](https://status.avisi.cloud/)                                 |
+| Contact support            | [support@avisi.cloud](mailto:support@avisi.cloud)                                 |
 
 ## Kubernetes certified
 
@@ -169,13 +169,13 @@ Avisi Cloud provides CNCF-conformant Kubernetes and is a Kubernetes Certified
 Service Provider, combining a portable upstream Kubernetes foundation with
 managed lifecycle operations and engineering support.
 
-<p align="center">
-  <img src="./img/certified-kubernetes.webp" alt="Certified Kubernetes" width="95">
+<p>
+  <img src="./img/certified-kubernetes.webp" alt="Certified Kubernetes">
 </p>
 
 ---
 
-<p align="center">
+<p>
   <a href="https://avisi.cloud/">Avisi Cloud</a> ·
   Part of <a href="https://www.avisi.nl/cloud">Avisi Group B.V.</a><br>
   © 2026 Avisi Cloud
