@@ -1,41 +1,168 @@
-![avisi-cloud-logo](/img/avisi-cloud-logo-black.png)
+<p align="center">
+  <a href="https://avisi.cloud/">
+    <img src="../img/avisi-cloud-logo-black.png" alt="Avisi Cloud" width="300">
+  </a>
+</p>
 
-> Running the mission critical workloads for the Enterprise using Cloud Native technology.
+<h1 align="center">Cloud-native infrastructure for mission-critical software</h1>
 
-[Website](https://avisi.cloud) | [Managed Kubernetes](https://avisi.cloud/kubernetes) | [Managed Observability](https://avisi.cloud/observability) | [Documentation](https://docs.avisi.cloud)
+<p align="center">
+  Built and operated by software and cloud engineers in the Netherlands.
+</p>
 
-We are a Software Engeering company from the Netherlands. For over two decades we have helped our customers get the most out of their Software and Data.
+<p align="center">
+  <a href="https://avisi.cloud/"><strong>Website</strong></a> ·
+  <a href="https://avisi.cloud/features"><strong>AME Features</strong></a> ·
+  <a href="https://docs.avisi.cloud/"><strong>Documentation</strong></a> ·
+  <a href="https://docs.avisi.cloud/blog"><strong>Engineering Blog</strong></a> ·
+  <a href="https://console.avisi.cloud/"><strong>Console</strong></a> ·
+  <a href="https://status.avisi.cloud/"><strong>Status</strong></a>
+</p>
 
-We believe data and software systems should always be secure and available. Cloud-Native infrastructure is the way to acomplishe this. We are on a mission to help Start-ups and Enterprises leverage the power of Cloud-Native, so they can focus on their core business.
+---
 
-## Managed Kubernetes
+## Engineering dependable cloud platforms
 
-Avisi Cloud offers a fully Managed Kubernetes platform. Avisi Cloud Kubernetes is a Kubernetes platform with built-in compliance and day-2 operational tooling.
+Avisi Cloud helps engineering teams run critical applications without carrying
+the full operational burden of Kubernetes. We combine software engineering,
+cloud-native infrastructure and day-2 operations in **Avisi Managed
+Environments (AME)**.
 
-_[Read more on our website](https://avisi.cloud/kubernetes)_
+| Capability | What it provides |
+| --- | --- |
+| **Managed Kubernetes** | CNCF-conformant Kubernetes with automated provisioning, upgrades and operational tooling. |
+| **Managed Observability** | Metrics, logs, dashboards and alerting integrated into every AME Kubernetes environment. |
+| **Multi-cloud operations** | One consistent operating model across supported public, private and hybrid infrastructure. |
+| **Developer automation** | Console, CLI, API, Go client and Terraform workflows for repeatable platform operations. |
 
-## Getting Started
+## Avisi Managed Environments
 
-- [Get Started with Avisi Cloud](https://docs.avisi.cloud/docs/get-started/introduction/)
-- [Platform Overview](https://docs.avisi.cloud/product/introduction/)
-- [Operational Run books for Kubernetes & Cloud Native](https://docs.avisi.cloud/docs/runbooks/)
+<p align="center">
+  <a href="https://avisi.cloud/">
+    <img src="../img/ame-robot.svg" alt="Avisi Managed Environments robot" width="150">
+  </a>
+</p>
 
-## About Avisi Cloud
+AME is our managed Kubernetes platform for running applications safely and
+reliably in production. It provides a consistent experience across supported
+cloud providers while Avisi Cloud operates the Kubernetes control plane,
+platform components, upgrades and managed add-ons.
 
-We began our journey with Kubernetes back in 2018, making it our preferred platform for orchestrating container deployments. Our customers at Avisi Cloud predominantly use the **private cloud**, resulting in us deploying Kubernetes using Ansible. As our number of clients grew, so did the number of Kubernetes Clusters we managed, spreading across both private and public clouds. This growth led to an increase in the amount of effort required to maintain all those clusters across our organization.
+Teams retain Kubernetes access and portability while reducing repetitive
+maintenance work. Platform engineers can use organisations, environments,
+upgrade channels and automation to operate multiple clusters consistently.
 
-During this period, we quickly realized the necessity for a robust solution. This solution needed to streamline the maintenance of environments, clusters, and the respective tooling, ensuring everything stayed up-to-date. It also had to save our engineers’ time by reducing repetitive maintenance tasks and preventing unforeseen errors during the upgrade process.
+<p align="center">
+  <a href="https://avisi.cloud/features"><strong>Explore AME features →</strong></a>
+  &nbsp;&nbsp;
+  <a href="https://docs.avisi.cloud/docs/product/overview/introduction"><strong>Read the product documentation →</strong></a>
+</p>
 
-After looking for solutions, we found no existing solutions meet our specific needs. So in 2019 we decided to develop our own [platform](https://avisi.cloud/kubernetes) tailored to our needs. Designed from the ground up to support Kubernetes across multiple cloud environments for a wide array of organizations and teams.
+## Observability is part of AME
 
-By June 2020, we successfully launched our production platform. Since then, we’ve been providing support to numerous customers and teams. We’ve managed hundreds of Kubernetes Clusters across both public and private clouds, highlighting the versatility and robustness of our platform.
+Managed Observability is included within AME rather than offered as a separate
+product. The integrated stack uses open, portable technology:
 
-### Kubernetes Management **Platform**<strong class="text-info">.</strong>
+| Signal or workflow | Managed capability |
+| --- | --- |
+| Metrics | Prometheus collection with highly available long-term storage |
+| Logs | Collection and storage with Loki |
+| Dashboards | Visualization through Grafana |
+| Alerts | Alertmanager routing to external services and webhooks |
+| Audit | Cluster and platform activity for operational visibility |
 
-<img src="https://avisi.cloud/img/avisi-cloud-kubernetes-img.png" alt="Avisi Cloud Robot" class="">
+[Explore AME Observability](https://docs.avisi.cloud/docs/product/overview/observability)
 
-Our platform provides **multi-tenant** Kubernetes as a Service Platform. With our self hosted solution, it's ideally suited for large enterprises, MSPs and other regulated industries.
+## Designed for enterprise operations
 
-Whether our end-users choose to use Kubernetes on their private cloud or a public one like AWS, the experience remains **seamless**. Thanks to an integrated observability stack, there's no need for teams to manually set up tools like Prometheus. It all comes pre-configured, complete with long-term storage.
+- **Consistent Kubernetes lifecycle:** defined release channels, managed
+  components and repeatable upgrade workflows.
+- **Identity and access controls:** organisations, OpenID Connect (OIDC),
+  role-based access and audit logging.
+- **Infrastructure choice:** support for multiple public clouds and private
+  infrastructure without changing the Kubernetes operating model.
+- **Operational visibility:** integrated metrics, logging, alerting, events and
+  runbooks.
+- **Cloud-native compatibility:** Kubernetes conformance backed by
+  [Kubernetes Certified Service Provider expertise](https://docs.avisi.cloud/docs/product).
 
-Moreover, we maintain our own **Kubernetes distribution**, ensuring uniformity across different environments. This means that you always operate with the exact version and combination of tooling and addons, no matter where clusters are deployed. System upgrades can be performed confidently after initial testing in a test cluster. This consistency removes the worry of unexpected surprises during upgrades.
+<p align="center">
+  <img src="../img/certified-kubernetes-1.10-color.svg" alt="Certified Kubernetes" width="105">
+</p>
+
+## Our journey
+
+| Year | Milestone |
+| --- | --- |
+| **2018** | We adopted Kubernetes as our preferred platform for orchestrating container workloads. |
+| **2019** | We began building our own platform to make multi-cloud Kubernetes operations repeatable and maintainable. |
+| **2020** | The first production version of the platform launched in June. |
+| **2021–2023** | AME matured through continuous security maintenance, [GitOps workflows](https://docs.avisi.cloud/blog/workshop-ame-gitops), [safer multi-cloud upgrades](https://docs.avisi.cloud/blog/safely-upgrading-your-kubernetes-clusters) and integrated observability. |
+| **2024** | We [released the Avisi Cloud Terraform provider](https://docs.avisi.cloud/blog/announcing-our-terraform-provider) and continued tracking upstream Kubernetes releases. |
+| **2025** | We improved cluster lifecycle operations, including a [new default node-pool upgrade strategy](https://docs.avisi.cloud/blog/node-pool-upgrade-strategy-default-changed) and support for successive Kubernetes releases. |
+| **2026** | We [added Kubernetes 1.35 support](https://docs.avisi.cloud/blog/avisi-cloud-kubernetes-support-for-v1-35), strengthened account security with required MFA and continued platform security updates. |
+
+The [engineering blog](https://docs.avisi.cloud/blog) records product and
+engineering milestones. The
+[AME release notes](https://docs.avisi.cloud/docs/product/overview/release-notes)
+are the source of truth for current versions, component updates, security
+notices, known issues and deprecations.
+
+<details>
+<summary><strong>Why we built AME</strong></summary>
+
+As the number of Kubernetes clusters we operated grew across private and public
+clouds, manual maintenance became increasingly expensive and inconsistent. We
+needed a repeatable way to manage environments, cluster versions and operational
+tooling without making every engineering team solve the same problems.
+
+AME grew from that need: a multi-tenant platform with a maintained Kubernetes
+distribution, automated lifecycle operations and integrated observability.
+Testing consistent combinations of Kubernetes components and add-ons before
+rollout makes upgrades more predictable across environments.
+
+</details>
+
+## Recent engineering updates
+
+- **May 2026:** [MFA required for all users](https://docs.avisi.cloud/blog/mfa-required-for-all-users)
+  strengthens access to the Avisi Cloud platform.
+- **April 2026:** [Kubernetes 1.35 support](https://docs.avisi.cloud/blog/avisi-cloud-kubernetes-support-for-v1-35)
+  continued AME's upstream Kubernetes lifecycle.
+- **February 2025:** [The default node-pool upgrade strategy changed](https://docs.avisi.cloud/blog/node-pool-upgrade-strategy-default-changed)
+  to improve the stability of patch upgrades.
+
+[Browse all engineering updates](https://docs.avisi.cloud/blog)
+
+## Open-source engineering
+
+Selected projects maintained by the Avisi Cloud engineering team:
+
+| Project | Purpose |
+| --- | --- |
+| [`acloud-toolkit`](https://github.com/avisi-cloud/acloud-toolkit) | Automates common and repetitive Kubernetes operational tasks. |
+| [`terraform-provider-acloud`](https://github.com/avisi-cloud/terraform-provider-acloud) | Provisions and manages AME resources with Terraform. |
+| [`go-client`](https://github.com/avisi-cloud/go-client) | Go client for the Avisi Cloud API. |
+| [`homebrew-tools`](https://github.com/avisi-cloud/homebrew-tools) | Distributes released Avisi Cloud command-line tooling through Homebrew. |
+| [`structurizr-site-generatr`](https://github.com/avisi-cloud/structurizr-site-generatr) | Generates static architecture sites from Structurizr DSL models. |
+
+[View all Avisi Cloud repositories](https://github.com/avisi-cloud?tab=repositories)
+
+## Resources
+
+| Resource | Link |
+| --- | --- |
+| Start a trial | [Open the AME Console](https://console.avisi.cloud/) |
+| Product documentation | [docs.avisi.cloud](https://docs.avisi.cloud/) |
+| Platform features | [AME feature overview](https://avisi.cloud/features) |
+| Product updates | [Engineering Blog](https://docs.avisi.cloud/blog) |
+| Release lifecycle | [AME release notes](https://docs.avisi.cloud/docs/product/overview/release-notes) |
+| Service health | [Avisi Cloud Status](https://status.avisi.cloud/) |
+| Support | [support@avisi.cloud](mailto:support@avisi.cloud) |
+
+---
+
+<p align="center">
+  Part of <a href="https://www.avisi.nl/cloud">Avisi Group B.V.</a><br>
+  © 2026 Avisi Cloud · Last updated July 2026
+</p>
