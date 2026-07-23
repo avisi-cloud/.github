@@ -7,7 +7,7 @@
 <h1>Avisi Managed Environments</h1>
 
 <p>
-  <strong>Managed Kubernetes with automated operations and built-in observability.</strong>
+  <strong>A Cloud Native platform for managed Kubernetes, automated operations and built-in observability.</strong>
 </p>
 
 <p>
@@ -26,9 +26,9 @@
 
 ## What is AME?
 
-**Avisi Managed Environments (AME)** is a managed Kubernetes platform. It provides the infrastructure,
-Kubernetes control plane, managed components and support needed to run
-production workloads safely and reliably.
+**Avisi Managed Environments (AME)** is a managed Cloud Native platform. It
+provides the infrastructure, Kubernetes control plane, managed components and
+support needed to run production workloads safely and reliably.
 
 AME maintains a consistent Kubernetes experience across supported cloud
 providers. Your teams keep Kubernetes access and application portability while
@@ -104,16 +104,45 @@ Provider features and regional availability differ. Check the
 [current product overview](https://docs.avisi.cloud/docs/product/overview/introduction)
 before selecting an infrastructure target.
 
+## Haven-compliant Cloud Native infrastructure
+
+<a href="https://haven.commonground.nl/techniek/aan-de-slag/avisi-ame">
+  <img src="./img/haven-logo.svg" alt="Haven" width="64">
+</a>
+
+**AME is Haven Compliant** and is documented by Haven as an implementation of
+its standard for platform-independent cloud hosting. Haven prescribes a
+Kubernetes configuration that makes Cloud Native environments functionally
+equivalent across different underlying infrastructures.
+
+For organisations adopting Haven and Common Ground, AME provides:
+
+- portable applications and a consistent Kubernetes experience across clouds;
+- less dependency on a single infrastructure provider;
+- validation with the Haven Compliancy Checker;
+- central Kubernetes operations while workloads, data and cloud resources
+  remain in the organisation's own cloud account.
+
+Haven compliance addresses platform portability and infrastructure uniformity;
+it is not a complete security baseline. Security and regulatory controls must
+still be assessed against the standards that apply to the organisation.
+
+[Learn about the Haven standard](https://haven.commonground.nl/techniek) ·
+[Use Haven with Avisi AME](https://haven.commonground.nl/techniek/aan-de-slag/avisi-ame)
+
 ## Automation for platform engineers
 
 <details open>
+
 <summary><strong>Console, CLI and API</strong></summary>
+
 - Use the **AME Console** to organise environments, create clusters, inspect
   activity and manage lifecycle operations.
 - Use the **`acloud` CLI** to manage clusters and open authenticated cluster
   shells from a terminal.
 - Use the **REST API** and **Go client** to integrate AME into internal
   platforms and automation.
+
 </details>
 
 <details>

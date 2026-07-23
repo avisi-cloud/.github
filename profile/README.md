@@ -7,7 +7,7 @@
 <h1>Avisi Cloud</h1>
 
 <p>
-  <strong>Cloud engineering for mission-critical software, AI and digital autonomy.</strong>
+  <strong>Cloud Native engineering for mission-critical software, AI and digital autonomy.</strong>
 </p>
 
 <p>
@@ -29,7 +29,7 @@
 
 Avisi is a software engineering company from the Netherlands. For more than two
 decades, we have helped organisations get more value from their software and
-data. Avisi Cloud brings that engineering background to cloud strategy,
+data. Avisi Cloud brings that engineering background to Cloud Native strategy,
 architecture, platform operations and observability.
 
 We believe critical software and data systems should remain secure, available
@@ -92,7 +92,9 @@ tooling continued to mature.
 | **2021–2023** | Security maintenance, [GitOps workflows](https://docs.avisi.cloud/blog/workshop-ame-gitops), [multi-cloud upgrades](https://docs.avisi.cloud/blog/safely-upgrading-your-kubernetes-clusters) and integrated observability became established parts of the platform. |
 | **2024**      | The [Avisi Cloud Terraform provider](https://docs.avisi.cloud/blog/announcing-our-terraform-provider) expanded infrastructure-as-code support.                                                                                                                      |
 | **2025**      | Cluster lifecycle operations continued to mature, including a [new default node-pool upgrade strategy](https://docs.avisi.cloud/blog/node-pool-upgrade-strategy-default-changed).                                                                                   |
-| **2026**      | AME added [Kubernetes 1.35 support](https://docs.avisi.cloud/blog/avisi-cloud-kubernetes-support-for-v1-35), strengthened account security with required MFA and continued its release and security cadence.                                                        |
+| **2026**      | AME introduced [Kubernetes 1.36 preview support][kubernetes-1-36], strengthened account security with required MFA and continued its release and security cadence.                                                                                                  |
+
+[kubernetes-1-36]: https://docs.avisi.cloud/docs/product/overview/release-notes#kubernetes-v136---preview
 
 The [engineering blog](https://docs.avisi.cloud/blog) records notable changes
 and engineering guidance. The
@@ -108,7 +110,7 @@ notices, known issues and deprecations.
   </a>
 </p>
 
-**Avisi Managed Environments (AME)** is our managed cloud platform for
+**Avisi Managed Environments (AME)** is our managed Cloud Native platform for
 business-critical software. Its managed Kubernetes foundation combines
 automated lifecycle operations, infrastructure choice and integrated
 observability in a consistent operating model.
@@ -134,6 +136,27 @@ which also cover strategy, vendor-neutral tooling advice, implementation,
 governance and adoption.
 
 [Read the AME Observability documentation](https://docs.avisi.cloud/docs/product/overview/observability)
+
+## Cloud Native standards and compliance
+
+### Haven compliance
+
+<a href="https://haven.commonground.nl/techniek/aan-de-slag/avisi-ame">
+  <img src="../img/haven-logo.svg" alt="Haven" width="64">
+</a>
+
+**AME is Haven Compliant.** Haven is a standard for platform-independent cloud
+hosting that prescribes a consistent Kubernetes configuration across public,
+private and on-premises infrastructure. This supports portable applications,
+infrastructure choice and reduced provider dependency for organisations
+working with Haven and Common Ground.
+
+Haven compliance covers platform portability and infrastructure uniformity; it
+is not a complete security baseline. AME combines this foundation with managed
+operations, security controls and lifecycle automation.
+
+[Learn about the Haven standard](https://haven.commonground.nl/techniek) ·
+[View Avisi AME on Haven](https://haven.commonground.nl/techniek/aan-de-slag/avisi-ame)
 
 ### Kubernetes certified
 
