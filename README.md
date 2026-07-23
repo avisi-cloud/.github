@@ -108,14 +108,12 @@ before selecting an infrastructure target.
 
 <details open>
 <summary><strong>Console, CLI and API</strong></summary>
-
 - Use the **AME Console** to organise environments, create clusters, inspect
   activity and manage lifecycle operations.
 - Use the **`acloud` CLI** to manage clusters and open authenticated cluster
   shells from a terminal.
 - Use the **REST API** and **Go client** to integrate AME into internal
   platforms and automation.
-
 </details>
 
 <details>
