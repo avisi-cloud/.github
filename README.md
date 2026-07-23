@@ -26,8 +26,7 @@
 
 ## What is AME?
 
-**Avisi Managed Environments (AME)** is a managed Kubernetes platform with
-built-in day-2 operational tooling. It provides the infrastructure,
+**Avisi Managed Environments (AME)** is a managed Kubernetes platform. It provides the infrastructure,
 Kubernetes control plane, managed components and support needed to run
 production workloads safely and reliably.
 
@@ -171,8 +170,6 @@ Service Provider, combining a portable upstream Kubernetes foundation with
 managed lifecycle operations and engineering support.
 
 <p align="center">
-  <img src="./img/kubernetes-icon-color.svg" alt="Kubernetes" width="90">
-  &nbsp;&nbsp;&nbsp;
   <img src="./img/certified-kubernetes.webp" alt="Certified Kubernetes" width="95">
 </p>
 
@@ -181,5 +178,5 @@ managed lifecycle operations and engineering support.
 <p align="center">
   <a href="https://avisi.cloud/">Avisi Cloud</a> ·
   Part of <a href="https://www.avisi.nl/cloud">Avisi Group B.V.</a><br>
-  © 2026 Avisi Cloud · Last updated July 2026
+  © 2026 Avisi Cloud
 </p>
