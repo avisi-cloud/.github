@@ -173,7 +173,7 @@ managed lifecycle operations and engineering support.
 <p align="center">
   <img src="./img/kubernetes-icon-color.svg" alt="Kubernetes" width="90">
   &nbsp;&nbsp;&nbsp;
-  <img src="./img/certified-kubernetes-1.10-color.svg" alt="Certified Kubernetes" width="95">
+  <img src="./img/certified-kubernetes.webp" alt="Certified Kubernetes" width="95">
 </p>
 
 ---
