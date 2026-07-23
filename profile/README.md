@@ -44,14 +44,14 @@ vendor.
 
 ## How we help
 
-| Area | What we provide |
-| --- | --- |
+| Area                                | What we provide |
+|-------------------------------------| --- |
 | **Cloud strategy and architecture** | Cloud choices translated into an executable architecture based on applications, data, teams, costs and risk. |
-| **Digital sovereignty** | Practical control over data location, access, legal context and strategic supplier dependencies. |
-| **Managed environments** | Secure, scalable and maintainable environments for business-critical applications. |
-| **Observability** | Strategy, architecture, tooling and operational practices across metrics, logs and traces. |
+| **Digital sovereignty**             | Practical control over data location, access, legal context and strategic supplier dependencies. |
+| **Managed environments**            | Secure, scalable and maintainable environments for business-critical applications. |
+| **Observability**                   | Strategy, architecture, tooling and operational practices across metrics, logs and traces. |
 | **DevOps and platform engineering** | Automation and delivery practices that improve reliability without adding unnecessary complexity. |
-| **Secure AI environments** | Controlled environments in which teams can experiment with AI without exposing production systems or customer data. |
+| **Secure AI environments (ALPHA)**  | Controlled environments in which teams can experiment with AI without exposing production systems or customer data. |
 
 <p align="center">
   <a href="https://www.avisi.nl/cloud"><strong>Explore Avisi Cloud services →</strong></a>
@@ -64,7 +64,7 @@ vendor.
 ## Our engineering journey
 
 Our managed platform grew from practical experience operating Kubernetes for
-customers—not from a plan to build another abstract cloud product.
+customers.
 
 In **2018**, Kubernetes became our preferred platform for orchestrating
 container deployments. Many of the environments we operated were private
