@@ -92,11 +92,12 @@ AME supports public-cloud and private-infrastructure deployments through a
 consistent API and Kubernetes experience.
 
 | Provider or infrastructure | Documented availability |
-| -------------------------- | ----------------------- |
+|----------------------------| ----------------------- |
 | Amazon Web Services (AWS)  | Supported               |
 | Azure                      | Beta                    |
 | Hetzner                    | Supported               |
-| Leafcloud                  | Supported               |
+| Leafcloud (Openstack)      | Supported               |
+| Cyso (OpenStack)           | Supported               |
 | OpenStack                  | Supported               |
 | VMware vSphere             | Supported               |
 

@@ -88,9 +88,10 @@ tooling continued to mature.
 ### From platform to Avisi Managed Environments
 
 | Period        | Evolution                                                                                                                                                                                                                                                           |
-| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **2021–2023** | Security maintenance, [GitOps workflows](https://docs.avisi.cloud/blog/workshop-ame-gitops), [multi-cloud upgrades](https://docs.avisi.cloud/blog/safely-upgrading-your-kubernetes-clusters) and integrated observability became established parts of the platform. |
 | **2024**      | The [Avisi Cloud Terraform provider](https://docs.avisi.cloud/blog/announcing-our-terraform-provider) expanded infrastructure-as-code support.                                                                                                                      |
+| **2025**      | AME became officially haven compliant. Including a reference architecture  [Use Haven with Avisi AME](https://haven.commonground.nl/techniek/aan-de-slag/avisi-ame)                                                                                                 |
 | **2025**      | Cluster lifecycle operations continued to mature, including a [new default node-pool upgrade strategy](https://docs.avisi.cloud/blog/node-pool-upgrade-strategy-default-changed).                                                                                   |
 | **2026**      | AME introduced [Kubernetes 1.36 preview support][kubernetes-1-36], strengthened account security with required MFA and continued its release and security cadence.                                                                                                  |
 
